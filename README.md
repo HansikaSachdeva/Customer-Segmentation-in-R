@@ -6,6 +6,7 @@ Customer Segmentation is the process of division of customer base into several g
 Using clustering techniques, companies can identify the several segments of customers allowing them to target the potential user base. In this machine learning project, K-means clustering is used, which is the essential algorithm for clustering an unlabeled dataset.
 
 K-means Algorithm
+
 While using the k-means clustering algorithm, the first step is to indicate the number of clusters (k) that we wish to produce in the final output. The algorithm starts by selecting k objects from dataset randomly that will serve as the initial centers for our clusters.
 1. We specify the number of clusters that we need to create.
 2. The algorithm selects k objects at random from the dataset. This object is the initial cluster or mean.
@@ -14,6 +15,6 @@ While using the k-means clustering algorithm, the first step is to indicate the 
 5. Iterative minimization of the total within the sum of squares. Then through the iterative minimization of the total sum of the square, the assignment stop wavering when we achieve maximum iteration. The default value is 10 that the R software uses for the maximum iterations.
 
 Methods used:
-Elbow method
-Silhouette method
-Gap statistic
+1. Elbow method
+2. Silhouette method
+3. Gap statistic
